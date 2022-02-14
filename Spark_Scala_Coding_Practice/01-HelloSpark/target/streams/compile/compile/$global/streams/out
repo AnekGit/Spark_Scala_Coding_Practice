@@ -1,0 +1,11 @@
+[0m[[0m[33mwarn[0m] [0m[0mF:\Spark_workspace\SparkProgrammingInScala-master\01-HelloSpark\src\main\scala\udemy_practice\scala_fundamentals\module3\try_ex.scala:16:5: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m    "finally.txt"[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mF:\Spark_workspace\SparkProgrammingInScala-master\01-HelloSpark\src\main\scala\udemy_practice\scala_fundamentals\module2\Person.scala:1:1: [0m
+[0m[[0m[33mwarn[0m] [0m[0mFound names but no class, trait or object is defined in the compilation unit.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThe incremental compiler cannot record the dependency information in such case.[0m
+[0m[[0m[33mwarn[0m] [0m[0mSome errors like unused import referring to a non-existent class might not be reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    [0m
+[0m[[0m[33mwarn[0m] [0m[0mpackage udemy_practice[0m
+[0m[[0m[33mwarn[0m] [0m[0m^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

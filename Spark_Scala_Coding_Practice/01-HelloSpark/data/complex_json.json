@@ -1,0 +1,33 @@
+[
+  {
+    "emp1" : {
+      "EmpName" : "Chris Jackman",
+      "EmpAge" : "34",
+      "EmpGender" : "Male",
+      "EmpDept" : "IT",
+      "EmpDesg" : "Project Manager"
+    },
+
+    "emp2" : {
+      "EmpName" : "Mary Jane",
+      "EmpAge" : "27",
+      "EmpGender" : "Female",
+      "EmpDept" : "IT",
+      "EmpDesg" : "Team Leader"
+    }
+  },
+
+  {
+    "emp1": {
+      "EmpName": "Mary Jane",
+      "EmpAge": "27",
+      "EmpGender": "Female",
+      "EmpDept": "IT",
+      "EmpDesg": "Team Leader"
+    }
+  }
+  ]
+
+
+
+

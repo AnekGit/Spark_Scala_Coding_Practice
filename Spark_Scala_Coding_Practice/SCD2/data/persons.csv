@@ -1,0 +1,4 @@
+ID,Name,Tax_Percentage(%),Effective_From,Effective_Upto
+101,Employee 1,10,Jan 2019,null
+102,Employee 2,15,Jan 2019,null
+103,Employee 3,15,Jan 2019,null

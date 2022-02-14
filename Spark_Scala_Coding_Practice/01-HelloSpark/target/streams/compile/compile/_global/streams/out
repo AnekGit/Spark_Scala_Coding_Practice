@@ -1,0 +1,13 @@
+[debug] Acquiring lock on file F:\Spark_workspace\SparkProgrammingInScala-master\01-HelloSpark\project\target\.sbt-compilation-infos\root-01-hellospark-compile\.sbt-idea-lock ...
+[warn] F:\Spark_workspace\SparkProgrammingInScala-master\01-HelloSpark\src\main\scala\udemy_practice\scala_fundamentals\module3\try_ex.scala:16:5: a pure expression does nothing in statement position
+[warn]     "finally.txt"
+[warn]     ^
+[warn] F:\Spark_workspace\SparkProgrammingInScala-master\01-HelloSpark\src\main\scala\udemy_practice\scala_fundamentals\module2\Person.scala:1:1: 
+[warn] Found names but no class, trait or object is defined in the compilation unit.
+[warn] The incremental compiler cannot record the dependency information in such case.
+[warn] Some errors like unused import referring to a non-existent class might not be reported.
+[warn]     
+[warn] package udemy_practice
+[warn] ^
+[warn] two warnings found
+[debug] Releasing lock on file F:\Spark_workspace\SparkProgrammingInScala-master\01-HelloSpark\project\target\.sbt-compilation-infos\root-01-hellospark-compile\.sbt-idea-lock.

@@ -1,0 +1,20 @@
+{
+  "accounting" : [
+    { "firstName" : "John",
+      "lastName"  : "Doe",
+      "age"       : 23 },
+
+    { "firstName" : "Mary",
+      "lastName"  : "Smith",
+      "age"      : 32 }
+  ],
+  "sales"      : [
+    { "sales_firstName" : "Sally",
+      "sales_lastName"  : "Green",
+      "sales_age"      : 27 },
+
+    { "sales_firstName" : "Jim",
+      "sales_lastName"  : "Galley",
+      "sales_age"       : 41 }
+  ]
+}
