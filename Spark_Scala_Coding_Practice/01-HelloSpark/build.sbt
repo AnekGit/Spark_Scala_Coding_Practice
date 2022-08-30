@@ -49,6 +49,8 @@ val testDependencies = Seq(
 val hiveDependencies = Seq(
   "org.apache.spark" %% "spark-hive" % "3.0.0-preview2"
 )
+
+
 libraryDependencies += "io.delta" %% "delta-core" % "0.7.0" % "provided"
 libraryDependencies ++= sparkDependencies ++ testDependencies ++ hiveDependencies
 

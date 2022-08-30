@@ -26,6 +26,32 @@ object date_test {
     import spark.implicits._
     val data = Seq("2021-07-01","2021-07-31","2021-07-10","2021-07-20").toDF("c1")
 
+    data.withColumn("dates_only",date_format(col("c1"),"yyyy")).show(false)
+
+    Seq("01-10-2021","02-10-2022").toDF("c1")
+      .withColumn("dates_only",to_date(col("c1"),"mm-dd-yyyy")).show()
+
+
+    Seq("2021-10-01","2022-01-10").toDF("c1")
+      .withColumn("dates_only",to_date(col("c1"))).show()
+
+    Seq("2021-10-01 01:22:30 AM").toDF("c1")
+      .withColumn("dates_only",
+        to_timestamp(
+          col("c1"),"yyyy-mm-dd hh:mm:ss a"
+        )
+      ).show()
+
+    Seq("2021-10-01 11:22 AM").toDF("c1")
+      .withColumn("dates_only",
+        to_date(
+          from_unixtime(
+                       unix_timestamp(col("c1"),"yyyy-mm-dd HH:MM AM")
+          )
+
+        )
+      ).show()
+
     data.show
     data.printSchema
 

@@ -91,12 +91,15 @@ object scd_2 {
     upsert_ds_final.show(false)
 
     println("========   retained_ds2 ======================")
-    val retained_ds2 = upsert_ds_final.where("flag = 'Retained'")
+    val retained_ds2 = upsert_ds_final
+        .where("flag = 'Retained'")
         .select("left.*","flag")
     retained_ds2.show(false)
 
     println("========   update_ds2 ======================")
-    val update_ds2 = upsert_ds_final.where("flag = 'Upsert'")
+    val update_ds2 = upsert_ds_final
+
+      .where("flag = 'Upsert'")
       .select("left.*","flag")
       .withColumn("current",lit(false))
       .withColumn("effectiveEndDate",current_date())
